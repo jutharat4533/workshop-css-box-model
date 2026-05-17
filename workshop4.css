@@ -1,0 +1,28 @@
+body {
+  margin: 40px;
+  font-family: sans-serif;
+}
+
+.tag {
+  display: inline-block;
+  padding: 6px 16px;
+  margin-right: 8px;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #475569;
+  transition:
+    background 0.15s,
+    border-color 0.15s;
+}
+
+.tag:hover {
+  background: #f1f5f9;
+}
+
+.tag.active {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: white;
+}
